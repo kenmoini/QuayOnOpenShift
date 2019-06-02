@@ -162,7 +162,7 @@ quay-enterprise-redis   ClusterIP   172.30.123.25   <none>        6379/TCP   25s
 Give it a few mins for the redis pod to be up and running.
 
 #### Step 5: Sign up with CoreOS 
-
+~~
 Go to [https://account.coreos.com/login](https://account.coreos.com/login) to sign up for a CoreOS account.
 
 A confirmation email will be sent to the listed account. Check your inbox for an email from CoreOS Support, and click Verify Email.
@@ -172,6 +172,9 @@ Click Free for use up to 10 nodes below Tectonic, enter your contact information
 Check the `Pull Secret`right below your account information. Either download this Pull Secret or Copy&Paste into a file with name `config.json`
 
 You will need this file to pull `quay` image from [quay.io](quay.io)
+~~
+
+No longer needed.
 
 #### Step 6: Deploy quay registry
 
